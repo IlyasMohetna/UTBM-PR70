@@ -57,7 +57,7 @@ public class Person {
 
     public void birthday()
     {
-        this.setAge(this.age++);
+        this.setAge(this.getAge() + 1);
     }
 
     public static void main(String[] args) {
@@ -67,6 +67,8 @@ public class Person {
         System.out.println("L'age de cette personne est : "+ Person.getAge());
         System.out.println("La taille de cette personne est : "+ Person.getHeight());
         System.out.println("Le poids de cette personne est : "+ Person.getWeight());
+        Person.birthday();
+        System.out.println("L'age de cette personne dans un an est : "+ Person.getAge());
     }
     
 }
