@@ -1,6 +1,6 @@
 package com.pr70.TP.TP2.Entreprise;
 
-public class Vendeur extends Employe implements Paie {
+public class Vendeur extends Employe {
     private double salaire_fixe;
     private double volume_production;
 

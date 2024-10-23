@@ -1,6 +1,6 @@
 package com.pr70.TP.TP2.Entreprise;
 
-public class Technicien extends Employe {
+public class Technicien extends Employe  {
     private double taux_horaire;
     private double heures_travailler;
     private double heures_supplementaire;

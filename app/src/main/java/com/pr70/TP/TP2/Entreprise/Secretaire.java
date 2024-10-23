@@ -1,6 +1,6 @@
 package com.pr70.TP.TP2.Entreprise;
 
-public class Secretaire extends Employe {
+public class Secretaire extends Employe  {
     private double salaire_fixe;
     private final double taux_horaire_en_plus;
 
