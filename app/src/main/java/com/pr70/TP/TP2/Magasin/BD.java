@@ -1,10 +1,14 @@
 package com.pr70.TP.TP2.Magasin;
 
+import java.util.ArrayList;
+
 public class BD extends Media implements Louer{
-    
-    public BD(String titre, double prix, double prix_location){
-        super(titre, prix);
-        this.nb_pages = nb_pages;
+    private ArrayList<String> auteurs;
+    private double prix_location;
+
+    public BD(String titre, ArrayList<String> auteurs, double prix_location){
+        super(titre, prix_location);
+        this.auteurs = auteurs;
         this.prix_location = prix_location;
     }
 }
