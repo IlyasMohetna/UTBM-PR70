@@ -3,9 +3,9 @@ package com.pr70.TP.TP2.Universite.Entite;
 abstract public class Personne {
     private String prenom;
     private String nom;
-    private String age;
+    private int age;
 
-    public Personne(String prenom, String nom, String age) {
+    public Personne(String prenom, String nom, int age) {
         this.prenom = prenom;
         this.nom = nom;
         this.age = age;
@@ -27,11 +27,11 @@ abstract public class Personne {
         this.nom = nom;
     }
 
-    public String getAge() {
+    public int getAge() {
         return this.age;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
