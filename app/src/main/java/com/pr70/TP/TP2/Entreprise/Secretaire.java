@@ -4,7 +4,7 @@ public class Secretaire extends Employe  {
     private double salaire_fixe;
     private final double taux_horaire_en_plus;
 
-    public Secretaire(String prenom, String nom, String age, String nom_poste, double salaire_fixe) {
+    public Secretaire(String prenom, String nom, int age, String nom_poste, double salaire_fixe) {
         super(prenom, nom, age, nom_poste);
         this.salaire_fixe = salaire_fixe;
         this.taux_horaire_en_plus = 0.3;

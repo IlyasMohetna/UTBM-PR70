@@ -4,9 +4,9 @@ public abstract class Employe{
     protected String nom_poste;
     private String prenom;
     private String nom;
-    private String age;
+    private int age;
 
-    public Employe(String prenom, String nom, String age, String nom_poste){
+    public Employe(String prenom, String nom, int age, String nom_poste){
         this.prenom = prenom;
         this.nom = nom;
         this.age = age;
@@ -29,11 +29,11 @@ public abstract class Employe{
         this.nom = nom;
     }
 
-    public String getAge() {
+    public int getAge() {
         return this.age;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
 

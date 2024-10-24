@@ -6,7 +6,7 @@ public class Technicien extends Employe  {
     private double heures_supplementaire;
     private final double taux_horaire_supplementaire;
 
-    public Technicien(String prenom, String nom, String age, String nom_poste, double taux_horaire, double heures_travailler, double heures_supplementaire) {
+    public Technicien(String prenom, String nom, int age, String nom_poste, double taux_horaire, double heures_travailler, double heures_supplementaire) {
         super(prenom, nom, age, nom_poste);
         this.taux_horaire = taux_horaire;
         this.heures_travailler = heures_travailler;
