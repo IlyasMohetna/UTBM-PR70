@@ -1,6 +1,6 @@
 package com.pr70.TP.TP2.Entreprise;
 
-public abstract class Employe extends Personne implements Paie{
+public abstract class Employe extends Personne{
     protected String nom_poste;
 
     public Employe(String prenom, String nom, String age, String nom_poste){
