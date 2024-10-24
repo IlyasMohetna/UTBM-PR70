@@ -2,7 +2,7 @@ package com.pr70.TP.TP2.Magasin;
 
 import java.util.ArrayList;
 
-public class BD extends Media implements Louer{
+public class BD extends Media{
     private ArrayList<String> auteurs;
     private double prix_location_semaine;
 

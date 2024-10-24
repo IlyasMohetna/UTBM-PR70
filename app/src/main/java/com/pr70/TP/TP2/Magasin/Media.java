@@ -8,4 +8,6 @@ public class Media {
         this.titre = titre;
         this.prix = prix;
     }
+
+    
 }
