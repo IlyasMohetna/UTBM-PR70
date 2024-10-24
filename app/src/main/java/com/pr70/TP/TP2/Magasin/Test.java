@@ -12,5 +12,10 @@ public class Test {
         auteurs.add("Auteur 2");
         auteurs.add("Auteur 3");
         BD bd = new BD("Tintin et Milou", auteurs, 10.0);
+
+        // public Client(String nom, String prenom, String adresse, String telephone, String email){
+        Client UnClient = new Client("Jean", "Dupont", "1 rue de la paix", "0123456789", "jean.dupont@gmail.com");
+
+        cd.setLoueur(UnClient);
     }
 }
