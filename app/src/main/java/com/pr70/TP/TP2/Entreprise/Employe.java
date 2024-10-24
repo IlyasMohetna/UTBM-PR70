@@ -7,4 +7,6 @@ public abstract class Employe extends Personne implements Paie{
         super(prenom, nom, age);
         this.nom_poste = nom_poste;
     }
+
+    public abstract double calculer_salaire();
 }

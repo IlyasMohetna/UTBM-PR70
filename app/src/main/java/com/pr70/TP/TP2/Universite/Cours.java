@@ -9,6 +9,7 @@ import com.pr70.TP.TP2.Universite.Entite.Doctorant;
 import com.pr70.TP.TP2.Universite.Entite.Enseignant;
 import com.pr70.TP.TP2.Universite.Entite.EnseignantChercheur;
 import com.pr70.TP.TP2.Universite.Interface.EstCoursParticipant;
+import com.pr70.TP.TP2.Universite.Entite.Personne;;
 
 public class Cours {
     private String nom_cours;
@@ -32,7 +33,9 @@ public class Cours {
     // }
 
     public EstCoursParticipant rechercherParticipantParNom(String nomRecherche) {
-        for (EstCoursParticipant participant : participants) {
+        for (EstCoursParticipant participant : LesParticipants) {
+            Personne personne = (Personne) participant;
+
             if (participant.getNom().equals(nomRecherche)) {
                 return participant;
             }
