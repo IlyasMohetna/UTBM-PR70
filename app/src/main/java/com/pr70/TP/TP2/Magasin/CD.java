@@ -13,4 +13,38 @@ public class CD extends Media{
         this.nombre_morceaux = nombre_morceaux;
         this.prix_location_jour = prix_location_jour;
     }
+
+
+    public String getGroupe() {
+        return this.groupe;
+    }
+
+    public void setGroupe(String groupe) {
+        this.groupe = groupe;
+    }
+
+    public double getDuree() {
+        return this.duree;
+    }
+
+    public void setDuree(double duree) {
+        this.duree = duree;
+    }
+
+    public double getNombre_morceaux() {
+        return this.nombre_morceaux;
+    }
+
+    public void setNombre_morceaux(double nombre_morceaux) {
+        this.nombre_morceaux = nombre_morceaux;
+    }
+
+    public double getPrix_location_jour() {
+        return this.prix_location_jour;
+    }
+
+    public void setPrix_location_jour(double prix_location_jour) {
+        this.prix_location_jour = prix_location_jour;
+    }
+
 }

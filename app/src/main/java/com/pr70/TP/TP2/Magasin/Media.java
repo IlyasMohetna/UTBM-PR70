@@ -9,5 +9,21 @@ public class Media {
         this.prix = prix;
     }
 
+
+    public String getTitre() {
+        return this.titre;
+    }
+
+    public void setTitre(String titre) {
+        this.titre = titre;
+    }
+
+    public double getPrix() {
+        return this.prix;
+    }
+
+    public void setPrix(double prix) {
+        this.prix = prix;
+    }
     
 }
