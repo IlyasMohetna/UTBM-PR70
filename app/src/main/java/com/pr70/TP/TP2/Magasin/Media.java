@@ -1,6 +1,6 @@
 package com.pr70.TP.TP2.Magasin;
 
-public class Media {
+public abstract class Media {
     private String titre;
     private double prix;
     private Client loueur;
@@ -34,5 +34,11 @@ public class Media {
     public void setLoueur(Client Client){
         this.loueur = Client;
     }
-    
+
+    protected abstract double getPriceParUnite();
+    protected abstract String getPrixPar();
+
+    public double calculerPrixLocation(int duree) {
+        return duree * getPriceParUnite();
+    }    
 }

@@ -1,10 +1,13 @@
-package com.pr70.TP.TP2.Magasin;
+package com.pr70.TP.TP2.Magasin.Produits;
+
+import com.pr70.TP.TP2.Magasin.Media;
 
 public class CD extends Media{
     private String groupe;
     private double duree;
     private double nombre_morceaux;
     private double prix_location_jour;
+    private final String prixPar = "jour";
 
     public CD(String titre, double prix, String groupe, double duree, double nombre_morceaux, double prix_location_jour){
         super(titre, prix);
@@ -47,4 +50,11 @@ public class CD extends Media{
         this.prix_location_jour = prix_location_jour;
     }
 
+    public double getPriceParUnite(){
+        return this.prix_location_jour;
+    }
+
+    public String getPrixPar(){
+        return this.prixPar;
+    }
 }
