@@ -38,6 +38,8 @@ public class Matrice {
                 this.matrice[i][j] = scanner.nextInt();
             }
         }
+
+        scanner.close();
     }
 
     public void afficherMatrice() {
